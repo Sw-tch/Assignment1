@@ -1,1 +1,8 @@
+#include <stdio.h>
 
+int main(void)
+{
+    char letter[1]="A";
+    letter[1]=letter[1]+1;
+    printf("the letter after A is %s", letter[1]);
+}
